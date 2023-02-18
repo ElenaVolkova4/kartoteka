@@ -1,1 +1,1 @@
-.sideBar{display:flex;flex-direction:column;background:#1f2339;height:100vh;width:241px;color:#7fffd4}.activeLink{color:#43e8ff}.navbar_link{color:#fff}.navbar_link:hover{color:rgba(0,0,0,.84)}.navbar_icon{display:grid;width:32px;justify-content:center;align-items:center}.disabled_link{pointer-events:none}
+.sideBar{display:flex;flex-direction:column;background:#1f2339;height:100vh;width:241px;color:#fff;font-style:normal;font-weight:400;font-size:14px;line-height:19px}.sideBar_item{color:#942476;display:flex}.active_link{color:#43e8ff}

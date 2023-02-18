@@ -1,8 +1,11 @@
 @import "./styles/normalize.css";
 
+* {
+  color: #ffffff;
+}
+
 body {
   box-sizing: border-box;
-  color: #ffffff;
   background: #4c5377;
   font-family: "Open Sans", sans-serif;
 }
