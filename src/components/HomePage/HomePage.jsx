@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+import Header from "../Header/Header";
 import "./HomePage.css";
 
 const HomePage = () => {
@@ -5,7 +7,7 @@ const HomePage = () => {
     <div
     // className=''
     >
-      HomePage
+      <Header title="ИП Васильев" />
     </div>
   );
 };

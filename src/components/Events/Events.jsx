@@ -1,3 +1,5 @@
+import Button from "../Button/Button";
+import Header from "../Header/Header";
 import "./Events.css";
 
 const Events = () => {
@@ -5,7 +7,11 @@ const Events = () => {
     <div
     // className=''
     >
-      Events
+      <Header
+        title="Карточка мероприятия"
+        status="Обновлено"
+        button=<Button title="Mатериалы проверки" />
+      />
     </div>
   );
 };

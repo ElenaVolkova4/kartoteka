@@ -12,7 +12,6 @@ function App() {
         <SideBar />
       </div>
       <div className="content">
-        контент
         <Routes>
           <Route path="/home-page" element={<HomePage />} />
           <Route path="/events" element={<Events />} />
