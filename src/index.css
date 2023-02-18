@@ -1,6 +1,6 @@
 @import "./styles/normalize.css";
 
-* {
+html {
   color: #ffffff;
 }
 
@@ -13,4 +13,9 @@ body {
 a {
   outline: none;
   text-decoration: none;
+}
+
+a:-webkit-any-link {
+  color: #ffffff;
+  cursor: pointer;
 }
