@@ -5,10 +5,13 @@ import SettingsBtn from "../../images/settingsBtn.png";
 const Header = (props) => {
   return (
     <div className="header">
-      <div className="header_title">{props.title}</div>
-      <div className="header_items">
+      <div className="header_column_first">
         {" "}
+        <div className="header_title">{props.title}</div>{" "}
         <div className="header_status">{props.status}</div>
+      </div>
+      <div className="header_column_second">
+        <div>{props.search}</div>
         <div>{props.button}</div>
         {/* <div className="header_buttons"> */}
         <img src={AddBtn} alt="add_button" />

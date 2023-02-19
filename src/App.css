@@ -1,1 +1,1 @@
-.app{display:flex}.content{margin-top:55px;margin-right:79px;margin-bottom:50px;margin-left:40px}
+.app{display:flex}.content{max-width:1170px;min-height:100vh;width:90%;margin:auto;margin-top:55px;padding:0 10px 0 10px}

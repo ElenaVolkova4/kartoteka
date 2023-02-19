@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import ButtonWhite from "../Buttons/ButtonWhite/ButtonWhite";
 import Header from "../Header/Header";
 import "./Events.css";
 
@@ -10,7 +10,7 @@ const Events = () => {
       <Header
         title="Карточка мероприятия"
         status="Обновлено"
-        button=<Button title="Mатериалы проверки" />
+        button=<ButtonWhite title="Mатериалы проверки" />
       />
     </div>
   );
