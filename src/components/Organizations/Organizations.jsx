@@ -7,16 +7,13 @@ import Table from "./Table/Table";
 
 const Organizations = () => {
   return (
-    <div
-    // className=''
-    >
+    <div>
       <Header
         title="Организации"
         search=<Search />
         button=<ButtonWhite title="Найти" />
       />
       <div className="organizations_content">
-        {" "}
         <Table />
       </div>
     </div>

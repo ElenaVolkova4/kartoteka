@@ -9,8 +9,6 @@ const TableHeader = () => {
         <th>ИНН</th>
         <th>Руководитель</th>
         <th>Адрес</th>
-
-        {/* <th className="table_header__actions">Actions</th> */}
       </tr>
     </thead>
   );
