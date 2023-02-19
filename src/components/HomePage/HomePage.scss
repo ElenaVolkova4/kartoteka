@@ -219,4 +219,67 @@ h3 {
 
 .home_page_leased_equipment {
   grid-area: G;
+
+  display: flex;
+  gap: 5px;
+  justify-content: space-between;
+
+  .home_page_leased_equipment_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .home_page_leased_equipments {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding-top: 20px;
+  }
+
+  .home_page_leased_equipments_title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .home_page_leased_equipments_info {
+    padding-top: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a1a6be;
+  }
+
+  .home_page_leased_equipment_btn {
+    padding-top: 35px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #43e8ff;
+  }
 }
+
+// .home_page_leased_equipment_right {
+//   position: relative;
+
+//   .horizontal_line {
+//     position: absolute;
+//     bottom: 40px;
+//     right: 0;
+//   }
+//   .vertical_line_left {
+//     position: absolute;
+//     left: 0;
+//   }
+//   .vertical_line_center {
+//     position: absolute;
+//   }
+//   .vertical_line_right {
+//     position: absolute;
+//   }
+// }

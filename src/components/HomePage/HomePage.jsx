@@ -10,6 +10,9 @@ import ChartImg from "../../images/chart.svg";
 import DiagramImg from "../../images/diagram.svg";
 import SquareBlue from "../../images/square_blue.svg";
 import SquarePurple from "../../images/square_purple.svg";
+import ChartImg2 from "../../images/chart2.png";
+import HorizontalLine from "../../images/Line_975.png";
+import VerticalLine from "../../images/Line_977.png";
 
 const HomePage = () => {
   // axios
@@ -154,8 +157,45 @@ const HomePage = () => {
             </div>
           </div>
         </div>
+
         <div className="home_page_leased_equipment card">
-          <h3>Арендуемая техника</h3>
+          <div className="home_page_leased_equipment_left">
+            <h3>Арендуемая техника</h3>
+            <div className="home_page_leased_equipment_name">
+              ООО “Магнат Мед”
+            </div>
+            <div className="home_page_leased_equipments">
+              <img src={SquareBlue} alt="Square" />
+              <div className="home_page_leased_equipments_2020">
+                <div className="home_page_leased_equipments_title">
+                  Экскаваторы 2020
+                </div>
+                <div className="home_page_leased_equipments_info">
+                  15 100 машин <br />
+                  130 областей
+                  <br />5 предприятий
+                </div>
+              </div>
+            </div>
+            <div className="home_page_leased_equipment_btn">
+              Добавить технику
+            </div>
+          </div>
+          <div className="home_page_leased_equipment_right">
+            <img src={ChartImg2} alt="Chart" />
+            {/* <img src={HorizontalLine} alt="Line" className="horizontal_line" />
+            <img src={VerticalLine} alt="Line" className="vertical_line_left" />
+            <img
+              src={VerticalLine}
+              alt="Line"
+              className="vertical_line_center"
+            />
+            <img
+              src={VerticalLine}
+              alt="Line"
+              className="vertical_line_right"
+            /> */}
+          </div>
         </div>
       </div>
     </div>
