@@ -1,0 +1,222 @@
+h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.home_page_content {
+  display: grid;
+  gap: 30px;
+  // grid-template-columns: repeat(6, 1fr);
+  // grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "A A B B C C"
+    "D D D D E E"
+    "F F F G G G";
+}
+
+.card {
+  background: #383e57;
+  box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+  padding: 20px;
+}
+
+.home_page_filds {
+  grid-area: A;
+  display: flex;
+  flex-direction: column;
+
+  .home_page_filds_img {
+    width: 186px;
+    height: 140px;
+    align-self: end;
+    img {
+      width: 100%;
+      // text-align: end;
+    }
+  }
+}
+
+.home_page_harvest_statistics {
+  grid-area: B;
+
+  .home_page_harvest_statistics_place {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .home_page_harvest_statistics_img {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -20px;
+  }
+}
+.home_page_weather {
+  grid-area: C;
+}
+
+.home_page_reports {
+  grid-area: D;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  .home_page_reports_chart {
+    padding-right: 40px;
+    padding-bottom: 30px;
+  }
+}
+.home_page_employees {
+  grid-area: E;
+
+  .home_page_employee {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+
+  .home_page_employee_name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .home_page_employee_post {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a1a6be;
+  }
+  .home_page_employee_icons {
+    display: flex;
+    gap: 20px;
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+  .home_page_employees_btn {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #43e8ff;
+    padding-top: 30px;
+  }
+}
+.home_page_statistics {
+  grid-area: F;
+
+  .home_page_statistics_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home_page_statistics_years {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #43e8ff;
+  }
+
+  .home_page_statistics_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .home_page_statistics_info_diagram {
+    padding-right: 80px;
+  }
+}
+
+.home_page_statistics_info_text {
+  display: grid;
+  gap: 2px;
+  grid-template-areas:
+    "A B"
+    ". C"
+    ". D"
+    "E F"
+    ". G"
+    ". H";
+
+  .home_page_statistics_info_square__blue {
+    grid-area: A;
+
+    padding-top: 22px;
+    padding-right: 20px;
+  }
+
+  .home_page_statistics_info_harvest_2020 {
+    grid-area: B;
+
+    padding-top: 22px;
+    padding-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .home_page_statistics_info_weight_2020 {
+    grid-area: C;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a1a6be;
+  }
+  .home_page_statistics_info_regions_2020 {
+    grid-area: D;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a1a6be;
+  }
+
+  .home_page_statistics_info_square__purple {
+    grid-area: E;
+    padding-top: 22px;
+  }
+
+  .home_page_statistics_info_harvest_2019 {
+    grid-area: F;
+
+    padding-top: 22px;
+    padding-bottom: 8px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+  }
+
+  .home_page_statistics_info_weight_2019 {
+    grid-area: G;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a1a6be;
+  }
+  .home_page_statistics_info_regions_2019 {
+    grid-area: H;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #a1a6be;
+  }
+}
+
+.home_page_leased_equipment {
+  grid-area: G;
+}

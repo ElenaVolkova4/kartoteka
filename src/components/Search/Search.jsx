@@ -4,7 +4,6 @@ import FilterIcon from "../../images/icons/FilterIcon.svg";
 const Search = () => {
   return (
     <div className="search">
-      {" "}
       <input
         className="search_input"
         placeholder="Поиск организации по ИНН или ОГРН"
@@ -13,5 +12,4 @@ const Search = () => {
     </div>
   );
 };
-// Поиск организации по ИНН или ОГРН
 export default Search;
