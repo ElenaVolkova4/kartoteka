@@ -5,23 +5,19 @@ const Form = () => {
   return (
     <div className="form">
       <div className="form_border">
-        <div className="form_title">
+        <div className="form_title form_body_flex">
           <label for="title_text">Решение о проведении поверки</label>
-          <br />
           <input type="text" id="title_text" placeholder="Введите текст" />
         </div>
       </div>
       <div className="form_body">
-        <div>
+        <div className="form_body_flex">
           {" "}
           <label for="name">Организация</label>
-          <br />
           <input type="text" id="name" placeholder="ООО “РесерчХолд”" />
         </div>
-        <div>
-          {" "}
+        <div className="form_body_flex">
           <label for="type">Вид проверки</label>
-          <br />
           <select id="type">
             <option selected value="plan">
               Плановая
@@ -30,10 +26,8 @@ const Form = () => {
             <option value="other">Еще вариант</option>
           </select>
         </div>
-        <div>
-          {" "}
+        <div className="form_body_flex">
           <label for="format">Форма проверки</label>
-          <br />
           <select id="format">
             <option selected value="out">
               Выездная
@@ -42,10 +36,8 @@ const Form = () => {
             <option value="other_format">Еще вариант</option>
           </select>
         </div>
-        <div>
-          {" "}
+        <div className="form_body_flex">
           <label for="method">Метод проверки</label>
-          <br />
           <select id="method">
             <option selected value="fact">
               Фактическая
@@ -54,16 +46,17 @@ const Form = () => {
             <option value="other_method">Еще вариант</option>
           </select>
         </div>
-        <div>
+        <div className="form_body_flex">
           <label>Сроки проведения проверки</label>
-          <br />
-          <input type="date" value="2020-08-02" />
-          -
-          <input type="date" value="2020-08-05" />
+          <div className="form_body_flex_input_date">
+            {" "}
+            <input type="date" value="2020-08-02" />
+            -
+            <input type="date" value="2020-08-05" />
+          </div>
         </div>
-        <div>
+        <div className="form_body_flex">
           <label for="address">Место проведения проверки</label>
-          <br />
           <input
             type="text"
             id="address"

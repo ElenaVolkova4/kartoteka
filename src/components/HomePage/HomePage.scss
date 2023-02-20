@@ -69,6 +69,56 @@ h3 {
     padding-bottom: 30px;
   }
 }
+//____________________________________________
+
+.home_page_weather_flex {
+  display: flex;
+  align-items: flex-end;
+  gap: 50px;
+  padding-bottom: 20px;
+}
+
+.home_page_weather_date {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin-bottom: 10px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.home_page_weather_temp {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 80px;
+  letter-spacing: -0.05em;
+
+  span {
+    vertical-align: top;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+  }
+}
+
+.home_page_weather_info {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #a1a6be;
+}
+
+//____________________________________________
+
 .home_page_employees {
   grid-area: E;
 

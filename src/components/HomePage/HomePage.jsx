@@ -75,9 +75,31 @@ const HomePage = () => {
             <img src={MapImg} alt="image" />
           </div>
         </div>
+
         <div className="home_page_weather card">
           <h3>Погода в курской области</h3>
+
+          <div className="home_page_weather_flex">
+            <div className="home_page_weather_date">
+              <div>28.08.2020</div>
+              <div>Среда</div>
+            </div>
+            <div className="home_page_weather_temp">
+              +28<span>&#8451;</span>
+            </div>
+          </div>
+          <div className="home_page_weather_flex">
+            <div className="home_page_weather_info">
+              <div>750 мм рт.ст.</div>
+              <div>3,5 м/с</div>
+            </div>
+            <div className="home_page_weather_info">
+              <div>Солнечно</div>
+              <div>Осадки 7%</div>
+            </div>
+          </div>
         </div>
+
         <div className="home_page_reports card">
           <div>
             <h3>Отчеты и статистика</h3>

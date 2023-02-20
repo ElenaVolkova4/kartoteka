@@ -1,3 +1,18 @@
+// @mixin placeholder {
+//   &::-webkit-input-placeholder {
+//     @content;
+//   }
+//   &:-moz-placeholder {
+//     @content;
+//   }
+//   &::-moz-placeholder {
+//     @content;
+//   }
+//   &:-ms-input-placeholder {
+//     @content;
+//   }
+// }
+
 .form {
   background: #383e57;
   box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
@@ -7,12 +22,15 @@
 
   input,
   select {
+    // @include placeholder {
+
     background: #3e4459;
     border-radius: 5px;
     border: none;
     color: #ffffff;
     padding: 7px 0px 7px 11px;
   }
+  // }
 
   select {
     padding: 7px 180px 7px 11px;
@@ -42,6 +60,10 @@
     color: #c4c4c4;
   }
 
+  input::placeholder {
+    vertical-align: top;
+  }
+
   input[type="date"]::-webkit-calendar-picker-indicator {
     opacity: 0;
   }
@@ -66,4 +88,15 @@
   display: flex;
   justify-content: center;
   padding-bottom: 24px;
+}
+
+.form_body_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form_body_flex_input_date {
+  display: flex;
+  align-items: center;
 }
