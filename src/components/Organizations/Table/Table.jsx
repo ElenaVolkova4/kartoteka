@@ -2,7 +2,7 @@ import React from "react";
 import "./Table.css";
 import TableHeader from "./TableHeader";
 import TableRow from "./TableRow";
-import { organizations } from "../list_of_organizations"; //нужно, если слова приходят не с сервераа из файла
+import { organizations } from "../../../list_of_organizations"; //нужно, если слова приходят не с сервераа из файла
 
 const Table = () => {
   return (
