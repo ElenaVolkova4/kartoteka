@@ -1,16 +1,29 @@
+@import "../../styles/variables.scss";
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-bottom: 60px;
+
+  @media screen and (max-width: $notebook) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
 }
 
 .header_column_first {
   display: flex;
   gap: 17px;
   align-items: flex-end;
-  flex-wrap: wrap;
+
+  @media screen and (max-width: $notebook) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
   .header_title {
     font-style: normal;
@@ -31,7 +44,12 @@
   display: flex;
   align-items: center;
   gap: 23px;
-  flex-wrap: wrap;
+
+  @media screen and (max-width: $notebook) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
 }
 
 .header_buttons {

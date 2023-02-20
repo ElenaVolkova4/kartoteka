@@ -1,3 +1,5 @@
+@import "../../../styles/variables.scss";
+
 // @mixin placeholder {
 //   &::-webkit-input-placeholder {
 //     @content;
@@ -11,6 +13,7 @@
 //   &:-ms-input-placeholder {
 //     @content;
 //   }
+
 // }
 
 .form {
@@ -34,6 +37,10 @@
 
   select {
     padding: 7px 180px 7px 11px;
+
+    @media screen and (max-width: $notebook) {
+      padding: 7px 100px 7px 11px;
+    }
   }
 
   // label {

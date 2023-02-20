@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 .organizations_content {
   height: 600px;
   overflow: auto;
@@ -5,4 +7,8 @@
   background: #383e57;
   box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
   border-radius: 18px;
+
+  @media screen and (max-width: $tablet) {
+    height: 500px;
+  }
 }

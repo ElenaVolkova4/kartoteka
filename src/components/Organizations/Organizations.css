@@ -1,1 +1,1 @@
-.organizations_content{height:600px;overflow:auto;padding:0 10px;background:#383e57;box-shadow:7px 7px 8px rgba(0,0,0,.15);border-radius:18px}
+.organizations_content{height:600px;overflow:auto;padding:0 10px;background:#383e57;box-shadow:7px 7px 8px rgba(0,0,0,.15);border-radius:18px}@media screen and (max-width: 720px){.organizations_content{height:500px}}

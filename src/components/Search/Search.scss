@@ -12,8 +12,8 @@
   color: #c4c4c4;
   border-radius: 5px;
 
-  @media screen and (max-width: $tablet) {
-    width: 165px;
+  @media screen and (max-width: $notebook) {
+    width: 90%;
   }
 
   .search_input {
