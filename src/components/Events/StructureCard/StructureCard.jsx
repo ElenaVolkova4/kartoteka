@@ -51,10 +51,10 @@ const StructureCard = (props) => {
               {props.old_name ? (
                 <div className="accordion_content_old_names">
                   <div>Наименование организации до реорганизации</div>
-                  <img src={SignIcon} alt="sign" />{" "}
+                  <img src={SignIcon} alt="sign" />
                   <span>{props.old_name}</span>
                   <br />
-                  <img src={SignIcon} alt="sign" />{" "}
+                  <img src={SignIcon} alt="sign" />
                   <span>{props.old_name2}</span>
                 </div>
               ) : undefined}

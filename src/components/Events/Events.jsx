@@ -3,6 +3,7 @@ import Header from "../Header/Header";
 import ButtonWhite from "../Buttons/ButtonWhite/ButtonWhite";
 import ButtonBlack from "../Buttons/ButtonBlack/ButtonBlack";
 import StructureCard from "./StructureCard/StructureCard";
+import Form from "./Form/Form";
 // import { organizations } from "../../list_of_organizations";
 
 const Events = () => {
@@ -76,9 +77,10 @@ const Events = () => {
               <ButtonBlack title="Сформировать" />
             </div>
           </div>
-          <div className="events_content_form"></div>
+          <div className="events_content_form">
+            <Form />
+          </div>
         </div>
-        <div></div>
       </div>
     </div>
   );

@@ -1,0 +1,69 @@
+.form {
+  background: #383e57;
+  box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 18px;
+
+  // padding: 0 30px 0 0;
+
+  input,
+  select {
+    background: #3e4459;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    padding: 7px 0px 7px 11px;
+  }
+
+  select {
+    padding: 7px 180px 7px 11px;
+  }
+
+  // label {
+  //   padding-bottom: 6px;
+  // }
+
+  #title_text,
+  #name,
+  #address {
+    width: 100%;
+  }
+
+  #title_text {
+    height: 56px;
+  }
+
+  input::placeholder,
+  input[type="date"],
+  select {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #c4c4c4;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+  }
+
+  .form_title {
+    padding: 25px 30px 30px 20px;
+  }
+
+  .form_border {
+    border-bottom: 1px solid #151e41;
+  }
+
+  .form_body {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    padding: 25px 30px 20px 20px;
+  }
+}
+
+.form_btn {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 24px;
+}

@@ -18,6 +18,10 @@
 
 .events_content_right_col {
   width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
 }
 
 .events_content_generator {
