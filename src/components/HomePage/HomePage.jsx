@@ -2,7 +2,7 @@ import Header from "../Header/Header";
 import "./HomePage.css";
 import ImgField from "../../images/Group.png";
 import MapImg from "../../images/map.png";
-import axios from "axios";
+// import axios from "axios";
 import TableStatistics from "./TableStatistics";
 import PhoneIcon from "../../images/phone.svg";
 import MailIcon from "../../images/mail.svg";
@@ -77,7 +77,7 @@ const HomePage = () => {
         </div>
 
         <div className="home_page_weather card">
-          <h3>Погода в курской области</h3>
+          <h3>Погода в Курской области</h3>
 
           <div className="home_page_weather_flex">
             <div className="home_page_weather_date">
@@ -174,7 +174,6 @@ const HomePage = () => {
               </div>{" "}
             </div>
             <div className="home_page_statistics_info_diagram">
-              {" "}
               <img src={DiagramImg} alt="Diagram" />
             </div>
           </div>

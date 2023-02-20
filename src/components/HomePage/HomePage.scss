@@ -1,3 +1,5 @@
+@import "../../styles/variables.scss";
+
 h3 {
   font-weight: 700;
   font-size: 16px;
@@ -13,6 +15,11 @@ h3 {
     "A A B B C C"
     "D D D D E E"
     "F F F G G G";
+
+  @media screen and (max-width: $notebook) {
+    // width: 90%;
+    // height: auto;
+  }
 }
 
 .card {
@@ -20,6 +27,10 @@ h3 {
   box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
   border-radius: 18px;
   padding: 20px;
+
+  @media screen and (max-width: $notebook) {
+    padding: 10px;
+  }
 }
 
 .home_page_filds {
@@ -33,10 +44,15 @@ h3 {
     align-self: end;
     img {
       width: 100%;
-      // text-align: end;
+    }
+
+    @media screen and (max-width: $notebook) {
+      width: 90%;
+      height: auto;
     }
   }
 }
+//____________________________________________
 
 .home_page_harvest_statistics {
   grid-area: B;
@@ -52,11 +68,20 @@ h3 {
     text-align: center;
     position: relative;
     top: -20px;
+
+    @media screen and (max-width: $notebook) {
+      top: 0px;
+    }
+  }
+
+  img {
+    @media screen and (max-width: $notebook) {
+      width: 90%;
+    }
   }
 }
-.home_page_weather {
-  grid-area: C;
-}
+
+//____________________________________________
 
 .home_page_reports {
   grid-area: D;
@@ -64,18 +89,40 @@ h3 {
   justify-content: space-between;
   align-items: flex-end;
 
+  // flex-wrap: wrap;
+
+  @media screen and (max-width: $notebook) {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
   .home_page_reports_chart {
     padding-right: 40px;
     padding-bottom: 30px;
+
+    @media screen and (max-width: $notebook) {
+      padding-right: 10px;
+    }
   }
 }
+
 //____________________________________________
+
+.home_page_weather {
+  grid-area: C;
+}
 
 .home_page_weather_flex {
   display: flex;
   align-items: flex-end;
   gap: 50px;
   padding-bottom: 20px;
+
+  @media screen and (max-width: $notebook) {
+    gap: 10px;
+    justify-content: center;
+  }
 }
 
 .home_page_weather_date {
@@ -96,12 +143,20 @@ h3 {
   font-size: 80px;
   letter-spacing: -0.05em;
 
+  @media screen and (max-width: $notebook) {
+    font-size: 40px;
+  }
+
   span {
     vertical-align: top;
     font-style: normal;
     font-weight: 300;
     font-size: 36px;
     line-height: 49px;
+
+    @media screen and (max-width: $notebook) {
+      font-size: 20px;
+    }
   }
 }
 
@@ -159,6 +214,9 @@ h3 {
     padding-top: 30px;
   }
 }
+
+//____________________________________________
+
 .home_page_statistics {
   grid-area: F;
 
@@ -180,10 +238,24 @@ h3 {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
+    @media screen and (max-width: $notebook) {
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
   }
 
   .home_page_statistics_info_diagram {
     padding-right: 80px;
+
+    @media screen and (max-width: $laptop) {
+      padding-right: 20px;
+    }
+
+    img {
+      width: 100%;
+    }
   }
 }
 
@@ -257,6 +329,7 @@ h3 {
     line-height: 19px;
     color: #a1a6be;
   }
+
   .home_page_statistics_info_regions_2019 {
     grid-area: H;
 
@@ -267,12 +340,28 @@ h3 {
   }
 }
 
+.home_page_leased_equipment_right {
+  img {
+    width: 100%;
+
+    @media screen and (max-width: $notebook) {
+      width: 80%;
+    }
+  }
+}
+//____________________________________________
+
 .home_page_leased_equipment {
   grid-area: G;
 
   display: flex;
   gap: 5px;
   justify-content: space-between;
+
+  @media screen and (max-width: $laptop) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
   .home_page_leased_equipment_name {
     font-style: normal;

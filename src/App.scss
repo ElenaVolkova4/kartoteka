@@ -1,6 +1,7 @@
+@import "./styles/variables.scss";
+
 .app {
   display: flex;
-  // background: #4c5377;
 }
 
 .content {
@@ -10,5 +11,21 @@
   margin: auto;
   margin-top: 55px;
   padding: 0 10px 0 10px;
-  // margin: 55px 79px 50px 40px;
+}
+
+.mobile_btn {
+  display: none;
+
+  @media screen and (max-width: $tablet) {
+    display: block;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+  }
+}
+
+.active {
+  right: 0;
 }

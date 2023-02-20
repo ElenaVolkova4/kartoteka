@@ -1,1 +1,1 @@
-.app{display:flex}.content{max-width:1170px;min-height:100vh;width:90%;margin:auto;margin-top:55px;padding:0 10px 0 10px}
+.app{display:flex}.content{max-width:1170px;min-height:100vh;width:90%;margin:auto;margin-top:55px;padding:0 10px 0 10px}.mobile_btn{display:none}@media screen and (max-width: 720px){.mobile_btn{display:block;position:absolute;left:10px;top:10px;z-index:10;cursor:pointer}}.active{right:0}

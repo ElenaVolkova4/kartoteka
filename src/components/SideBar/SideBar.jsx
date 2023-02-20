@@ -1,15 +1,12 @@
 import React from "react";
-
 import "./SideBar.css";
 import { NavLink } from "react-router-dom";
 
-const setActiveLink = ({ isActive }) => (isActive ? "active_link" : "");
-
-const SideBar = () => {
+const SideBar = (props) => {
   return (
-    <div className="sideBar">
+    <div className={`sideBar ${props.active}`}>
       <div className="sideBar_home">
-        <NavLink to="/home-page">
+        <NavLink to="/">
           {({ isActive }) => (
             <div
               className={

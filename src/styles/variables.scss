@@ -6,4 +6,10 @@
 
 $mobile: 380px;
 $tablet: 720px;
-$laptop: 1025px;
+$notebook: 1200px;
+$laptop: 1400px;
+
+// @media screen and (max-width: $notebook) {
+//   flex-wrap: wrap;
+//   justify-content: center;
+// }

@@ -1,8 +1,19 @@
+@import "../../styles/variables.scss";
+
 .table_statistics {
   border-collapse: collapse;
   border: none;
   margin-bottom: 20px;
   padding: 9px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+
+  @media screen and (max-width: $notebook) {
+    font-size: 10px;
+  }
 }
 
 .table_statistics_header {
@@ -11,6 +22,10 @@
 
 .table_statistics_header tr th {
   padding: 10px 30px 10px 10px;
+
+  @media screen and (max-width: $notebook) {
+    padding: 5px 15px 5px 5px;
+  }
 }
 
 .table_statistics tr th:first-child,
@@ -26,6 +41,9 @@
 .table_statistics tbody td {
   text-align: left;
   padding: 10px 30px 10px 10px;
+  @media screen and (max-width: $notebook) {
+    padding: 5px 15px 5px 5px;
+  }
 }
 
 .table_statistics_row td {
