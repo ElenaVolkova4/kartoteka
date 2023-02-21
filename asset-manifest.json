@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kartoteka/static/css/main.d07a873e.css",
-    "main.js": "/kartoteka/static/js/main.0651a53e.js",
+    "main.css": "/kartoteka/static/css/main.5aa2ce5c.css",
+    "main.js": "/kartoteka/static/js/main.c2ff0e34.js",
     "static/media/chart2.png": "/kartoteka/static/media/chart2.8c25967565fa72360464.png",
     "static/media/map.png": "/kartoteka/static/media/map.e5ccb4d226e42e3ad7c9.png",
     "static/media/Group.png": "/kartoteka/static/media/Group.5bb6c1ec50b43f80afe9.png",
@@ -19,11 +19,11 @@
     "static/media/square_purple.svg": "/kartoteka/static/media/square_purple.86810c5daf3bb36f5b040febf94c8ee5.svg",
     "static/media/square_blue.svg": "/kartoteka/static/media/square_blue.4b59daa94b0f527b715db0b1535d3e8c.svg",
     "static/media/chart.svg": "/kartoteka/static/media/chart.fcc01c277c6000f5860b8ce35638e5f7.svg",
-    "main.d07a873e.css.map": "/kartoteka/static/css/main.d07a873e.css.map",
-    "main.0651a53e.js.map": "/kartoteka/static/js/main.0651a53e.js.map"
+    "main.5aa2ce5c.css.map": "/kartoteka/static/css/main.5aa2ce5c.css.map",
+    "main.c2ff0e34.js.map": "/kartoteka/static/js/main.c2ff0e34.js.map"
   },
   "entrypoints": [
-    "static/css/main.d07a873e.css",
-    "static/js/main.0651a53e.js"
+    "static/css/main.5aa2ce5c.css",
+    "static/js/main.c2ff0e34.js"
   ]
 }
