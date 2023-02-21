@@ -13,9 +13,30 @@ body {
 a {
   outline: none;
   text-decoration: none;
+  color: #ffffff;
 }
 
 a:-webkit-any-link {
   color: #ffffff;
   cursor: pointer;
+}
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:focus {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:active {
+  color: #ffffff;
 }

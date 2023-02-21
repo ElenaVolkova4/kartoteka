@@ -6,7 +6,7 @@ const SideBar = (props) => {
   return (
     <div className={`sideBar ${props.active}`}>
       <div className="sideBar_home">
-        <NavLink to="/">
+        <NavLink to="/kartoteka">
           {({ isActive }) => (
             <div
               className={
