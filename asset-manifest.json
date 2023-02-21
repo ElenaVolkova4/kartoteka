@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/kartoteka/static/css/main.d07a873e.css",
+    "main.js": "/kartoteka/static/js/main.315c8fa7.js",
+    "static/media/chart2.png": "/kartoteka/static/media/chart2.8c25967565fa72360464.png",
+    "static/media/map.png": "/kartoteka/static/media/map.e5ccb4d226e42e3ad7c9.png",
+    "static/media/Group.png": "/kartoteka/static/media/Group.5bb6c1ec50b43f80afe9.png",
+    "static/media/diagram.svg": "/kartoteka/static/media/diagram.6dd52b814f1c3d20a31e71d5cf670baa.svg",
+    "static/media/SignIcon.svg": "/kartoteka/static/media/SignIcon.7c4bdcc0e2f68002c28aa544667eb912.svg",
+    "static/media/phone.svg": "/kartoteka/static/media/phone.a46cd57e3d886b46c54fc68bb8db1e66.svg",
+    "static/media/EditIcon.svg": "/kartoteka/static/media/EditIcon.88157ac9a265eab54d8964b697742237.svg",
+    "static/media/MapIcon.svg": "/kartoteka/static/media/MapIcon.be166f95c4f9966ac7e40b7073e6488a.svg",
+    "static/media/FilterIcon.svg": "/kartoteka/static/media/FilterIcon.86891cbe984df3c1cd1e14352d19c23a.svg",
+    "static/media/emp.svg": "/kartoteka/static/media/emp.4f737ac297ebe2d920a233857318d0c5.svg",
+    "static/media/mail.svg": "/kartoteka/static/media/mail.b09138a946bbc14ecbebab347938586a.svg",
+    "index.html": "/kartoteka/index.html",
+    "static/media/arr_down.svg": "/kartoteka/static/media/arr_down.1c7ebf98efc96b69686b582647e0046a.svg",
+    "static/media/arr_up.svg": "/kartoteka/static/media/arr_up.5a3724722d32eb35634bf27c9a370821.svg",
+    "static/media/square_purple.svg": "/kartoteka/static/media/square_purple.86810c5daf3bb36f5b040febf94c8ee5.svg",
+    "static/media/square_blue.svg": "/kartoteka/static/media/square_blue.4b59daa94b0f527b715db0b1535d3e8c.svg",
+    "static/media/chart.svg": "/kartoteka/static/media/chart.fcc01c277c6000f5860b8ce35638e5f7.svg",
+    "main.d07a873e.css.map": "/kartoteka/static/css/main.d07a873e.css.map",
+    "main.315c8fa7.js.map": "/kartoteka/static/js/main.315c8fa7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d07a873e.css",
+    "static/js/main.315c8fa7.js"
+  ]
+}
