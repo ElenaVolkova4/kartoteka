@@ -1,6 +1,5 @@
 import Header from "../Header/Header";
 import ButtonWhite from "../Buttons/ButtonWhite/ButtonWhite";
-
 import "./Organizations.css";
 import Search from "../Search/Search";
 import Table from "./Table/Table";

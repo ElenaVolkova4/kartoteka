@@ -235,41 +235,6 @@ const SideBar = (props) => {
           )}
         </NavLink>{" "}
       </div>
-
-      {/* <NavbarLink
-          url="/"
-          title="Главная"
-          icon={<MainIcon />}
-          className={setActiveLink}
-        /> */}
-      {/* <NavLink to="/profile" className={setActiveLink}>
-          <div></div>
-          Главная
-        </NavLink> */}
-      {/* <div className="sideBar_item">
-        <NavLink to="/">Константин Константиновский</NavLink>
-      </div>
-      <div className="sideBar_item">
-        <NavLink to="/events">Мероприятия</NavLink>
-      </div>
-      <div className="sideBar_item">
-        <NavLink to="/">Сотрудники</NavLink>
-      </div>
-      <div className="sideBar_item">
-        <NavLink to="/">Заметки</NavLink>
-      </div>
-      <div className="sideBar_item">
-        <NavLink to="/">Статистика</NavLink>
-      </div>{" "}
-      <div className="sideBar_item">
-        <NavLink to="/">Удобрения</NavLink>
-      </div>
-      <div className="sideBar_item">
-        <NavLink to="/users">Погода</NavLink>
-      </div>
-      <div className="sideBar_item">
-        <NavLink to="/organizations">Организации</NavLink>
-      </div> */}
     </div>
   );
 };

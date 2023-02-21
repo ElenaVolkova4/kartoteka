@@ -3,7 +3,6 @@
 .events_content {
   display: flex;
   gap: 28px;
-  // max-height: 600px;
 
   @media screen and (max-width: $notebook) {
     flex-wrap: wrap;
@@ -49,7 +48,7 @@
   .events_content_generator_document {
     display: flex;
     gap: 10px;
-    align-items: end;
+    align-items: flex-end;
     justify-content: space-between;
 
     @media screen and (max-width: $notebook) {
@@ -63,9 +62,5 @@
   .events_content_generator_document_border {
     border-bottom: 1px solid #ffffff;
     flex-grow: 1;
-
-    // @media screen and (max-width: $notebook) {
-    //   flex-grow: 0;
-    // }
   }
 }

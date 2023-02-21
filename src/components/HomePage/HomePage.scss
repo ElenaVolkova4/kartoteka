@@ -46,7 +46,7 @@ h3 {
   .home_page_filds_img {
     width: 186px;
     height: 140px;
-    align-self: end;
+    align-self: flex-end;
 
     img {
       width: 100%;
@@ -442,23 +442,3 @@ h3 {
     color: #43e8ff;
   }
 }
-
-// .home_page_leased_equipment_right {
-//   position: relative;
-
-//   .horizontal_line {
-//     position: absolute;
-//     bottom: 40px;
-//     right: 0;
-//   }
-//   .vertical_line_left {
-//     position: absolute;
-//     left: 0;
-//   }
-//   .vertical_line_center {
-//     position: absolute;
-//   }
-//   .vertical_line_right {
-//     position: absolute;
-//   }
-// }

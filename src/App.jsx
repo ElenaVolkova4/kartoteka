@@ -1,13 +1,11 @@
 import React from "react";
 import { useState } from "react";
-
 import { Route, Routes } from "react-router-dom";
 import "./App.scss";
 import Events from "./components/Events/Events";
 import HomePage from "./components/HomePage/HomePage";
 import Organizations from "./components/Organizations/Organizations";
 import SideBar from "./components/SideBar/SideBar";
-
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function App() {

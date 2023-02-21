@@ -1,39 +1,18 @@
 @import "../../../styles/variables.scss";
 
-// @mixin placeholder {
-//   &::-webkit-input-placeholder {
-//     @content;
-//   }
-//   &:-moz-placeholder {
-//     @content;
-//   }
-//   &::-moz-placeholder {
-//     @content;
-//   }
-//   &:-ms-input-placeholder {
-//     @content;
-//   }
-
-// }
-
 .form {
   background: #383e57;
   box-shadow: 7px 7px 8px rgba(0, 0, 0, 0.15);
   border-radius: 18px;
 
-  // padding: 0 30px 0 0;
-
   input,
   select {
-    // @include placeholder {
-
     background: #3e4459;
     border-radius: 5px;
     border: none;
     color: #ffffff;
     padding: 7px 0px 7px 11px;
   }
-  // }
 
   select {
     padding: 7px 180px 7px 11px;
@@ -42,10 +21,6 @@
       padding: 7px 100px 7px 11px;
     }
   }
-
-  // label {
-  //   padding-bottom: 6px;
-  // }
 
   #title_text,
   #name,

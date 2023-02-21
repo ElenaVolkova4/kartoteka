@@ -13,10 +13,8 @@ const Header = (props) => {
       <div className="header_column_second">
         <div>{props.search}</div>
         <div>{props.button}</div>
-        {/* <div className="header_buttons"> */}
         <img src={AddBtn} alt="add_button" />
         <img src={SettingsBtn} alt="seting_button" />
-        {/* </div> */}
       </div>
     </div>
   );

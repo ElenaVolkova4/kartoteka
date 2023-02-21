@@ -14,6 +14,8 @@
   @media screen and (max-width: $laptop) {
     width: 180px;
     overflow: auto;
+    font-size: 12px;
+    line-height: 12px;
   }
 
   @media screen and (max-width: $tablet) {
@@ -71,11 +73,4 @@
 .sideBar_items__active_link {
   color: #23273a;
   background: linear-gradient(0.25turn, #00edfe, #00fedb);
-  // background: radial-gradient(
-  //       133.33% 2508.35% at -4.59% -10%,
-  //       #32e6ff 0%,
-  //       rgba(0, 255, 209, 0.81) 100%
-  //     )
-  //     /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
-  //   #43e8ff;
 }
